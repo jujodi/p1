@@ -1,6 +1,11 @@
+DROP TRIGGER loc_trigger;
+DROP TRIGGER school_trigger;
+DROP SEQUENCE loc_sequence;
+DROP SEQUENCE school_sequence;
 DROP TABLE Has;
 DROP TABLE Tag;
-DROP TABLE Photo_Album;
+ALTER TABLE Album DROP CONSTRAINT album_ref_photo;
+ALTER TABLE Photo DROP CONSTRAINT photo_ref_album;
 DROP TABLE Album;
 DROP TABLE Photo;
 DROP TABLE Friends;
