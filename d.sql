@@ -1,0 +1,12 @@
+DROP TABLE Has;
+DROP TABLE Tag;
+DROP TABLE Photo_Album;
+DROP TABLE Album;
+DROP TABLE Photo;
+DROP TABLE Friends;
+DROP TABLE Attended;
+DROP TABLE Participant;
+DROP TABLE Event;
+DROP TABLE Users;
+DROP TABLE Location;
+DROP TABLE School;
