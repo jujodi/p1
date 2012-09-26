@@ -1,6 +1,7 @@
 CREATE TABLE Location(
     loc_id VARCHAR2(100), city VARCHAR2(100), state VARCHAR2(100), country VARCHAR2(100),
-    PRIMARY KEY (loc_id) );
+    PRIMARY KEY (loc_id),
+    UNIQUE(city, state, country));
 
 CREATE SEQUENCE loc_sequence
     START WITH 1
